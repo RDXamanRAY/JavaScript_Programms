@@ -1,3 +1,5 @@
+// withOUT method
+
 function reverse(str){
     let rev = "";
     for(let i=str.length-1; i>=0; i--){
@@ -6,3 +8,8 @@ function reverse(str){
     return rev;
 }
 console.log(reverse("JavaScript"));
+
+
+//with method
+let str = "JavaScript";
+console.log(str.split("").reverse().join(""));
